@@ -18,6 +18,8 @@ apush file1 file2 ...   # 一次push多个文件，根据在out目录的路劲�
 apush out/target/product/xxx/system/lib/libui.so # 自动push到system/lib/libui.so
 ```
 
+![](https://github.com/TUSSON/android-dev-tools/blob/master/res/apush.png)
+
 - #### akill
 
 可同时选择多个进程，一次杀掉
@@ -38,6 +40,8 @@ akill PATTERN           # 搜到PATTERN匹配的进程名，然后adb shell kill
 ```bash
 amm [-k] [module_path]
 ```
+
+![](https://github.com/TUSSON/android-dev-tools/blob/master/res/amm.gif)
 
 ### ToDo
 增加apull，实现pull可以使用通配符，一次Pull多个匹配文件
